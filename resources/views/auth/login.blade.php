@@ -33,6 +33,7 @@
               <div class="form-group row">
                 <div class="col-2 text-right"></div>
                 <div class="col-10">
+                  <!--
                   <div class="form-check float-right">
                     <label class="form-check-label" for="gridCheck1" id="tipoUsuario">
                       Tipo de Usuario
@@ -41,6 +42,7 @@
                       data-onstyle="warning" data-offstyle="secondary" checked data-on="Cliente" data-off="Empleado"
                       id="myCheck" onchange="myFunction(this)">
                   </div>
+                  -->
                 </div>
               </div>
               <div class="form-group row">
