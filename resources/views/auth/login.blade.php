@@ -16,7 +16,8 @@
     <div class="main-container">
     <div class="jumbotron form-signin">
       <h1 id="titleApp" class="row justify-content-center">Bienvenido a Migrare Elearning 101</h1>
-        <p id="pApp" class="lead">Desarrollo tus capacidades con cursos Online a tu ritmo y horario de conveniencia, prepárate para un mejor futuro. ¡Ingresa ahora mismo y haz la diferencia!</p>
+        <p id="pApp" class="lead">Desarrollo tus capacidades con cursos Online a tu ritmo y horario de conveniencia, prepárate para un mejor futuro.</p>  
+        <p class="lead text-center  ">¡Ingresa ahora mismo y haz la diferencia!</p>
         <div class="row">
         <div class="col text-center"><button id="reg" type="button" class="btn btn-warning btn-block"><span style="font-size: 1.0rem">Regístrate Aquí</span></button></div>
         </div>
