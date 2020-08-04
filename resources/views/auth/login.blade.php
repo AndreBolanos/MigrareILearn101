@@ -145,7 +145,7 @@
                 <label for="passwordU">Contraseña</label>
                 <input type="password" class="form-control" id="passwordU" placeholder="Ingresar Contraseña">
               </div>
-              <small id="noteU" class="form-text text-muted">Su información estará almacenada de forma confidencial y no será compartida</small>
+              <small id="noteU" class="form-text text-muted">Su información estará almacenada de forma confidencial y no será compartida.</small>
             </form>
           </div>
           <div class="modal-footer">
