@@ -128,7 +128,6 @@
               <div class="form-group">
                 <label for="nameU">Nombre</label>
                 <input type="text" class="form-control" id="nameU" aria-describedby="nameHelp" placeholder="Ingresar nombre(s)">
-                <small id="emailHelp" class="form-text text-muted">Well never share your email with anyone else.</small>
               </div>
               <div class="form-group">
                 <label for="lastnameU">Apellido</label>
@@ -139,13 +138,14 @@
                 <input type="text" class="form-control" id="countryU" aria-describedby="countryHelp" placeholder="Ingresar nacionalidad">
               </div>
               <div class="form-group">
-                <label for="emailU">Correo Electronico</label>
-                <input type="email" class="form-control" id="emailU" aria-describedby="emailHelp" placeholder="Ingresa Correo Electronico">
+                <label for="emailU">Correo Electrónico</label>
+                <input type="email" class="form-control" id="emailU" aria-describedby="emailHelp" placeholder="Ingresa Correo Electrónico">
               </div>
               <div class="form-group">
-                <label for="exampleInputPassword1">Password</label>
-                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                <label for="passwordU">Contraseña</label>
+                <input type="password" class="form-control" id="passwordU" placeholder="Ingresar Contraseña">
               </div>
+              <small id="noteU" class="form-text text-muted">Su información estará almacenada de forma confidencial y no será compartida</small>
             </form>
           </div>
           <div class="modal-footer">
