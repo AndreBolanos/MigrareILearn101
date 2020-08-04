@@ -124,7 +124,7 @@
             </button>
           </div>
           <div class="modal-body">
-            <form>
+            <form style="margin-top: 0px;">
               <div class="form-group">
                 <label for="nameU">Nombre</label>
                 <input type="text" class="form-control" id="nameU" aria-describedby="nameHelp" placeholder="Ingresar nombre(s)">
@@ -135,12 +135,12 @@
                 <input type="text" class="form-control" id="lastnameU" aria-describedby="lastnameHelp" placeholder="Ingresar apellido(s)">
               </div>
               <div class="form-group">
-                <label for="exampleInputEmail1">Email address</label>
-                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                <label for="countryU">Nacionalidad</label>
+                <input type="text" class="form-control" id="countryU" aria-describedby="countryHelp" placeholder="Ingresar nacionalidad">
               </div>
               <div class="form-group">
-                <label for="exampleInputEmail1">Email address</label>
-                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                <label for="emailU">Correo Electronico</label>
+                <input type="email" class="form-control" id="emailU" aria-describedby="emailHelp" placeholder="Ingresa Correo Electronico">
               </div>
               <div class="form-group">
                 <label for="exampleInputPassword1">Password</label>
