@@ -9,6 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/gh/gitbrent/bootstrap4-toggle@3.6.1/css/bootstrap4-toggle.min.css" rel="stylesheet">
 
     <title>ELearning Migrare 101</title>
   </head>
@@ -19,7 +20,7 @@
         <p id="pApp" class="lead">Desarrollo tus capacidades con cursos Online a tu ritmo y horario de conveniencia, prepárate para un mejor futuro.</p>  
         <p class="lead text-center  ">¡Ingresa ahora mismo y haz la diferencia!</p>
         <div class="row">
-        <div class="col text-center"><button id="reg" type="button" class="btn btn-warning btn-block" data-toggle="modal" data-target="#exampleModal"><span style="font-size: 1.0rem">Regístrate Aquí</span></button></div>
+        <div class="col text-center"><button id="reg" type="button" class="btn btn-warning btn-block" style="box-shadow: 0 16px 24px 2px rgba(0, 0, 0, .14), 0 6px 30px 5px rgba(0, 0, 0, .12), 0 8px 10px -5px rgba(0, 0, 0, .2)" data-toggle="modal" data-target="#exampleModal"><span style="font-size: 1.0rem">Regístrate Aquí</span></button></div>
         </div>
         <hr class="my-4" id="hrForm">
         <div class="row" id="formRow">
@@ -79,12 +80,11 @@
                 <div class="col-9">
                   <div class="form-check">
                     <input class="form-check-input" type="checkbox" data-toggle="toggle" data-size="xs"
-                      data-onstyle="warning" data-offstyle="secondary" name="remember" id="remember"
+                      data-onstyle="primary" data-offstyle="secondary" name="remember" id="remember" checked data-on="Si" data-off="No"
                       {{ old('remember') ? 'checked' : '' }}>
                     <label class="form-check-label" for="gridCheck1" id="labelRemember">
                       Remember me
                     </label>
-                    <input type="hidden" id="Upreference" name="Upreference">
                   </div>
                 </div>
               </div>
@@ -157,5 +157,6 @@
     </div>
 
     <script src="{{ mix('js/app.js') }}"></script>
+    <script src="https://cdn.jsdelivr.net/gh/gitbrent/bootstrap4-toggle@3.6.1/js/bootstrap4-toggle.min.js"></script>
   </body>
 </html>
