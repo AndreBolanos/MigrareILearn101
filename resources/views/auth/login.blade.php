@@ -126,9 +126,21 @@
           <div class="modal-body">
             <form>
               <div class="form-group">
+                <label for="nameU">Nombre</label>
+                <input type="text" class="form-control" id="nameU" aria-describedby="nameHelp" placeholder="Ingresar nombre(s)">
+                <small id="emailHelp" class="form-text text-muted">Well never share your email with anyone else.</small>
+              </div>
+              <div class="form-group">
+                <label for="lastnameU">Apellido</label>
+                <input type="text" class="form-control" id="lastnameU" aria-describedby="lastnameHelp" placeholder="Ingresar apellido(s)">
+              </div>
+              <div class="form-group">
                 <label for="exampleInputEmail1">Email address</label>
                 <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-                <small id="emailHelp" class="form-text text-muted">Well never share your email with anyone else.</small>
+              </div>
+              <div class="form-group">
+                <label for="exampleInputEmail1">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
               </div>
               <div class="form-group">
                 <label for="exampleInputPassword1">Password</label>
@@ -137,8 +149,8 @@
             </form>
           </div>
           <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-            <button type="button" class="btn btn-primary">Save changes</button>
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+            <button type="button" class="btn btn-primary">Registrarse</button>
           </div>
         </div>
       </div>
