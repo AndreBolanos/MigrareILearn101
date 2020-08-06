@@ -133,34 +133,47 @@
           </button>
         </div>
         <div class="modal-body">
-          <form style="margin-top: 0px;">
+          <form method="POST" action="{{ route('register') }}">
+            @csrf
             <div class="form-group">
-              <label for="nameU">Nombre</label>
-              <input type="text" class="form-control" id="nameU" aria-describedby="nameHelp"
-                placeholder="Ingresar nombre(s)">
+                <label for="">Name</label>
+                <input type="text" name="name" value="{{ old('name') }}" required class="form-control{{ $errors->has('name') ? ' is-invalid': '' }}">
+        
+                @if ($errors->has('name'))
+                <span class="invalid-feedback">
+                    <strong>{{ $errors->first('name') }}</strong>
+                </span>    
+                @endif
+        
             </div>
             <div class="form-group">
-              <label for="lastnameU">Apellido</label>
-              <input type="text" class="form-control" id="lastnameU" aria-describedby="lastnameHelp"
-                placeholder="Ingresar apellido(s)">
+                <label for="">Email</label>
+                <input type="text" name="email" value="{{ old('email') }}" required class="form-control{{ $errors->has('email') ? ' is-invalid': '' }}">
+        
+                @if ($errors->has('email'))
+                <span class="invalid-feedback">
+                    <strong>{{ $errors->first('email') }}</strong>
+                </span>    
+                @endif
+        
             </div>
             <div class="form-group">
-              <label for="countryU">Nacionalidad</label>
-              <input type="text" class="form-control" id="countryU" aria-describedby="countryHelp"
-                placeholder="Ingresar nacionalidad">
+                <label for="">Password</label>
+                <input type="password" name="password" required class="form-control{{ $errors->has('password') ? ' is-invalid': '' }}">
+        
+                @if ($errors->has('password'))
+                <span class="invalid-feedback">
+                    <strong>{{ $errors->first('password') }}</strong>
+                </span>    
+                @endif
+        
             </div>
             <div class="form-group">
-              <label for="emailU">Correo Electrónico</label>
-              <input type="email" class="form-control" id="emailU" aria-describedby="emailHelp"
-                placeholder="Ingresa Correo Electrónico">
+                <label for="">Retyped Password</label>
+                <input type="password" name="password_confirmation" required class="form-control">
             </div>
-            <div class="form-group">
-              <label for="passwordU">Contraseña</label>
-              <input type="password" class="form-control" id="passwordU" placeholder="Ingresar Contraseña">
-            </div>
-            <small id="noteU" class="form-text text-muted">Su información estará almacenada de forma confidencial y no
-              será compartida.</small>
-          </form>
+            <button type="submit" class="btn btn-primary btn-block">Register!</button>
+        </form>
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
