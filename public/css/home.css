@@ -10928,3 +10928,66 @@ a.text-dark:focus {
   }
 }
 
+html,
+body {
+  height: 100%;
+  position: relative;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.carousel-inner .carousel-item {
+  width: 100%;
+  min-height: 50vh;
+  background-size: cover;
+}
+
+.ad1 {
+  background: url(/img/BackgroundA.png) no-repeat center center fixed;
+}
+
+.ad2 {
+  background: url(/img/BackB-min.jpg) no-repeat center center fixed;
+}
+
+.ad3 {
+  background: url(/img/elearning-min.png) no-repeat center center fixed;
+}
+
+.navbar {
+  background-color: rgba(94, 39, 80, 0.8);
+}
+
+.navbar-brand {
+  font-weight: 900;
+  text-shadow: 2px 2px #490808;
+  font-size: 1.4rem;
+}
+
+#logoM {
+  height: 26;
+}
+
+#buscarC {
+  width: 80%;
+  margin-left: 20%;
+}
+
+/* Media queries */
+
+@media only screen and (max-device-width: 480px) and (orientation: portrait) {
+  #buscarC {
+    width: 86%;
+    margin-left: 0;
+    margin-bottom: 15px !important;
+  }
+
+  .carousel-inner .carousel-item {
+    width: 100%;
+    min-height: 100vh;
+    background-size: cover;
+  }
+}
+
