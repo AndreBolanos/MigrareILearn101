@@ -201,7 +201,7 @@
       </div>
     </div>
     <div class="carousel-item">
-      <div class="container">
+      <div class="container" style="padding: 0 12% 0 12%">
         <div class="row justify-content-center">
           <div class="col-12">
             <div class="card">
@@ -222,7 +222,7 @@
       </div>
     </div>
     <div class="carousel-item">
-      <div class="container">
+      <div class="container" style="padding: 0 12% 0 12%">
         <div class="row justify-content-center">
           <div class="col-12">
             <div class="card">
