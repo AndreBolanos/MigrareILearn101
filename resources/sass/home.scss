@@ -65,6 +65,11 @@ body {
     border-bottom: 10px solid #566573
 }
 
+#containerM{
+    margin-top: 15px;
+    padding: 0 10% 0 10%
+}
+
 #carouselC .carousel-control-prev,#carouselC .carousel-control-next {
     position: absolute;
     top: 0;
@@ -112,7 +117,7 @@ body {
 
 #carouselCM .carousel-indicators {
 
-    bottom: -10px;
+    bottom: -20px;
 }
 
 #carouselCM{
@@ -144,6 +149,11 @@ body {
         margin-right:0;
         margin-top: 10px;
         margin-bottom: 10px;
+    }
+
+    #containerM{
+        margin-top: 15px;
+        padding: 0 5% 0 5%
     }
 
     #carouselC{

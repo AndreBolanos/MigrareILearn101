@@ -40,7 +40,7 @@
   </div>
 </div>
 
-<div class="container-fluid" style="margin-top: 15px;padding: 0 10% 0 10%">
+<div id="containerM" class="container-fluid">
   <h3 style="font-weight: 700;">Empieza hoy tu camino al exito</h3>
   <p>Elije un curso para comenzar con el aprendizaje, preparate para el futuro!</p>
 
@@ -180,7 +180,7 @@
   </ol>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <div class="container">
+      <div class="container" style="padding: 0 12% 0 12%">
         <div class="row justify-content-center">
           <div class="col-12">
             <div class="card">
