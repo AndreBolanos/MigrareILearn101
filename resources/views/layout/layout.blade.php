@@ -64,8 +64,8 @@
                     </div>
                 </div>
             </form>
-            <form id="logout-form" action="{{ route('logout') }}" method="POST"
-                style="cursor: pointer;display: flex;align-items: center;color:white;margin-right:10px;" onclick="event.preventDefault();
+            <form id="logout-form" class="d-flex justify-content-center" action="{{ route('logout') }}" method="POST"
+                 onclick="event.preventDefault();
                         document.getElementById('logout-form').submit();">
                 @csrf
                 <a style="margin-right: 10px;">Logout</a>

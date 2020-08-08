@@ -10975,6 +10975,14 @@ body {
   margin-left: 20%;
 }
 
+#logout-form {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  color: white;
+  margin-right: 10px;
+}
+
 /* Media queries */
 
 @media only screen and (max-device-width: 480px) and (orientation: portrait) {
@@ -10989,6 +10997,16 @@ body {
     min-height: 100vh;
     background-size: cover;
   }
+
+  #logout-form {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    color: white;
+    margin-right: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
 }
 
 @media only screen and (max-width: 767.98px) and (orientation: landscape) {
@@ -11002,6 +11020,16 @@ body {
     width: 100%;
     min-height: 100vh;
     background-size: cover;
+  }
+
+  #logout-form {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    color: white;
+    margin-right: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
   }
 }
 
