@@ -11,6 +11,11 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <!-- Font Awesome JS -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js"
+        integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous">
+    </script>
+    <script src="https://kit.fontawesome.com/48be5f5ef0.js" crossorigin="anonymous"></script>
     <title>ELearning Migrare 101</title>
 </head>
 
@@ -51,21 +56,21 @@
             </ul>
             <form id="buscarC" class="my-2 my-lg-0">
                 <div class="form-row">
-                  <div class="col-md-6 col-11">
-                    <input type="text" class="form-control" placeholder="Buscar Cursos">
-                  </div>
-                  <div class="col-md-6 col-1">
-                    <button class="btn btn-outline-light" type="submit">Buscar</button>
-                  </div>
+                    <div class="col-md-6 col-11">
+                        <input type="text" class="form-control" placeholder="Buscar Cursos">
+                    </div>
+                    <div class="col-md-6 col-1">
+                        <button class="btn btn-outline-light" type="submit">Buscar</button>
+                    </div>
                 </div>
-              </form>
-              <div class="mx-auto my-2 my-lg-0 text-center">
-                <svg width="2.5em" height="2.2em" viewBox="0 0 16 16" class="bi bi-power" fill="white" xmlns="http://www.w3.org/2000/svg">
-                    <path fill-rule="evenodd" d="M5.578 4.437a5 5 0 1 0 4.922.044l.5-.866a6 6 0 1 1-5.908-.053l.486.875z"/>
-                    <path fill-rule="evenodd" d="M7.5 8V1h1v7h-1z"/>
-                  </svg>
-                </div>
-            
+            </form>
+            <form id="logout-form" action="{{ route('logout') }}" method="POST"
+                style="cursor: pointer;display: flex;align-items: center;color:white;margin-right:10px;" onclick="event.preventDefault();
+                        document.getElementById('logout-form').submit();">
+                @csrf
+                <a style="margin-right: 10px;">Logout</a>
+                <i class="fas fa-power-off fa-2x" style="font-size: 25px;"></i>
+            </form>
         </div>
     </nav>
 
