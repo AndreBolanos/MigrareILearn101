@@ -54,7 +54,7 @@
                     <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
                 </li>
             </ul>
-            <form id="buscarC" class="my-2 my-lg-0">
+            <form id="buscarC" class="mr-auto my-2 my-lg-0">
                 <div class="form-row">
                     <div class="col-md-6 col-11">
                         <input type="text" class="form-control" placeholder="Buscar Cursos">
