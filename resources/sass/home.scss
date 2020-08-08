@@ -132,9 +132,9 @@ body {
         margin-left: 0;
         margin-bottom: 15px !important;
     }
-    .carousel-inner .carousel-item {
+    #carouselH .carousel-inner .carousel-item {
         width: 100%;
-        min-height: 50vh;
+        min-height: 100vh;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
