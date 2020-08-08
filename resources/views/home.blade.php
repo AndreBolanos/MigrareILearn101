@@ -41,17 +41,18 @@
 </div>
 
 <div class="container-fluid" style="margin-top: 15px;padding: 0 10% 0 10%">
-  <h3>Empieza hoy tu camino al exito</h3>
+  <h3 style="font-weight: 700;">Empieza hoy tu camino al exito</h3>
+  <p>Elije un curso para comenzar con el aprendizaje, preparate para el futuro!</p>
 
   <div id="carouselC" class="carousel slide" data-ride="carousel">
     <ol class="carousel-indicators">
-      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      <li data-target="#carouselC" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselC" data-slide-to="1"></li>
+      <li data-target="#carouselC" data-slide-to="2"></li>
     </ol>
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <div class="container" style="margin-top: 5%;">
+        <div class="container" style="margin-top: 1%;">
           <div class="row justify-content-center">
             <div class="col-md">
               <div class="card">
@@ -98,10 +99,14 @@
               </div>
             </div>
           </div>
+        </div>
+        <div class="carousel-caption d-none d-md-block" style="color:#566573">
+          <h5>First slide label</h5>
+          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
         </div>
       </div>
       <div class="carousel-item">
-        <div class="container" style="margin-top: 5%;">
+        <div class="container" style="margin-top: 1%;">
           <div class="row justify-content-center">
             <div class="col-md-3">
               <div class="card">
@@ -149,13 +154,17 @@
             </div>
           </div>
         </div>
+        <div class="carousel-caption d-none d-md-block"  style="color:#566573">
+          <h5>First slide label</h5>
+          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+        </div>
       </div>
     </div>
-    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <a class="carousel-control-prev" href="#carouselC" role="button" data-slide="prev">
       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
       <span class="sr-only">Previous</span>
     </a>
-    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <a class="carousel-control-next" href="#carouselC" role="button" data-slide="next">
       <span class="carousel-control-next-icon" aria-hidden="true"></span>
       <span class="sr-only">Next</span>
     </a>
