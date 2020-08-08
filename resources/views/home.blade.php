@@ -43,7 +43,7 @@
 <div class="container-fluid" style="margin-top: 15px;padding: 0 10% 0 10%">
   <h3>Empieza hoy tu camino al exito</h3>
 
-  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+  <div id="carouselC" class="carousel slide" data-ride="carousel">
     <ol class="carousel-indicators">
       <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
       <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
