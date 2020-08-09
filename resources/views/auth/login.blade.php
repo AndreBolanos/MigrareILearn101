@@ -8,6 +8,7 @@
     content="width=device-width,maximum-scale=1.0,user-scalable=no,initial-scale=1, shrink-to-fit=no">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="{{ mix('css/app.css') }}">
+  <script src="{{ mix('js/app.js') }}"></script>
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap" rel="stylesheet">
@@ -15,6 +16,14 @@
     rel="stylesheet">
 
   <title>ELearning Migrare 101</title>
+
+  @if (count($errors) > 0)
+  <script>
+      $( document ).ready(function() {
+          $('#exampleModal').modal('show');
+      });
+  </script>
+@endif
 </head>
 
 <body>
@@ -121,6 +130,7 @@
     </footer>
   </div>
 
+
   <!-- Modal -->
   <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
     aria-hidden="true">
@@ -133,57 +143,57 @@
           </button>
         </div>
         <div class="modal-body">
-          <form method="POST" action="{{ route('register') }}">
+          <form id="newUserF" method="POST" action="{{ route('registerUser') }}">
             @csrf
             <div class="form-group">
                 <label for="">Name</label>
-                <input type="text" name="name" value="{{ old('name') }}" required class="form-control{{ $errors->has('name') ? ' is-invalid': '' }}">
+                <input type="text" name="nameU" value="{{ old('nameU') }}" required class="form-control{{ $errors->has('nameU') ? ' is-invalid': '' }}">
         
-                @if ($errors->has('name'))
+                @if ($errors->has('nameU'))
                 <span class="invalid-feedback">
-                    <strong>{{ $errors->first('name') }}</strong>
+                    <strong>{{ $errors->first('nameU') }}</strong>
                 </span>    
                 @endif
         
             </div>
             <div class="form-group">
                 <label for="">Email</label>
-                <input type="text" name="email" value="{{ old('email') }}" required class="form-control{{ $errors->has('email') ? ' is-invalid': '' }}">
+                <input type="text" name="emailU" value="{{ old('emailU') }}" required class="form-control{{ $errors->has('emailU') ? ' is-invalid': '' }}">
         
-                @if ($errors->has('email'))
+                @if ($errors->has('emailU'))
                 <span class="invalid-feedback">
-                    <strong>{{ $errors->first('email') }}</strong>
+                    <strong>{{ $errors->first('emailU') }}</strong>
                 </span>    
                 @endif
         
             </div>
             <div class="form-group">
                 <label for="">Password</label>
-                <input type="password" name="password" required class="form-control{{ $errors->has('password') ? ' is-invalid': '' }}">
+                <input type="password" name="passwordU" required class="form-control{{ $errors->has('passwordU') ? ' is-invalid': '' }}">
         
-                @if ($errors->has('password'))
+                @if ($errors->has('passwordU'))
                 <span class="invalid-feedback">
-                    <strong>{{ $errors->first('password') }}</strong>
+                    <strong>{{ $errors->first('passwordU') }}</strong>
                 </span>    
                 @endif
         
             </div>
             <div class="form-group">
                 <label for="">Retyped Password</label>
-                <input type="password" name="password_confirmation" required class="form-control">
+                <input type="password" name="passwordU_confirmation" required class="form-control">
             </div>
-            <button type="submit" class="btn btn-primary btn-block">Register!</button>
         </form>
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
-          <button type="button" class="btn btn-primary">Registrarse</button>
+          <button type="submit" form="newUserF" class="btn btn-primary">Registrarse</button>
         </div>
       </div>
     </div>
   </div>
 
-  <script src="{{ mix('js/app.js') }}"></script>
+
+  
   <script src="https://cdn.jsdelivr.net/gh/gitbrent/bootstrap4-toggle@3.6.1/js/bootstrap4-toggle.min.js"></script>
 </body>
 
