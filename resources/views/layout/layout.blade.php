@@ -64,11 +64,11 @@
                     </div>
                 </div>
             </form>
-            <form id="logout-form" action="{{ route('logout') }}" method="POST"
+            <form id="logout-form" class="d-flex justify-content-center" action="{{ route('logout') }}" method="POST"
                  onclick="event.preventDefault();
                         document.getElementById('logout-form').submit();">
                 @csrf
-                <div class="d-flex justify-content-center" style="cursor: pointer">
+                <div id="logoutF" class="d-flex justify-content-center" style="cursor: pointer">
                 <a style="margin-right: 10px;">Logout</a>
                 <i class="fas fa-power-off fa-2x" style="font-size: 25px;"></i>
             </div>
