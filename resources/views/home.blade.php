@@ -58,10 +58,9 @@
               <div class="card">
                 <img class="card-img-top" src="/img/BackA-min.jpg" alt="Card image cap" height="143">
                 <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                    cards content.</p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                  <h5 class="card-title">Curso A</h5>
+                  <p class="card-text">Descripción del curso y otros detalles relevantes para el usuario.</p>
+                  <a href="#" class="btn btn-primary">Suscribirse</a>
                 </div>
               </div>
             </div>
@@ -69,10 +68,9 @@
               <div class="card">
                 <img class="card-img-top" src="/img/elearning-min.png" alt="Card image cap" height="143">
                 <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                    cards content.</p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                  <h5 class="card-title">Curso B</h5>
+                  <p class="card-text">Descripción del curso y otros detalles relevantes para el usuario.</p>
+                  <a href="#" class="btn btn-primary">Suscribirse</a>
                 </div>
               </div>
             </div>
@@ -80,10 +78,9 @@
               <div class="card">
                 <img class="card-img-top" src="/img/BackB-min.jpg" alt="Card image cap" height="143">
                 <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                    cards content.</p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                  <h5 class="card-title">Curso C</h5>
+                  <p class="card-text">Descripción del curso y otros detalles relevantes para el usuario.</p>
+                  <a href="#" class="btn btn-primary">Suscribirse</a>
                 </div>
               </div>
             </div>
@@ -91,10 +88,9 @@
               <div class="card">
                 <img class="card-img-top" src="/img/e-learning-system-min.jpeg" alt="Card image cap" height="143">
                 <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                    cards content.</p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                  <h5 class="card-title">Curso D</h5>
+                  <p class="card-text">Descripción del curso y otros detalles relevantes para el usuario.</p>
+                  <a href="#" class="btn btn-primary">Suscribirse</a>
                 </div>
               </div>
             </div>
@@ -112,10 +108,9 @@
               <div class="card">
                 <img class="card-img-top" src="/img/BackA-min.jpg" alt="Card image cap" height="143">
                 <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                    cards content.</p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                  <h5 class="card-title">Curso E</h5>
+                  <p class="card-text">Descripción del curso y otros detalles relevantes para el usuario.</p>
+                  <a href="#" class="btn btn-primary">Suscribirse</a>
                 </div>
               </div>
             </div>
@@ -123,10 +118,9 @@
               <div class="card">
                 <img class="card-img-top" src="/img/elearning-min.png" alt="Card image cap" height="143">
                 <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                    cards content.</p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                  <h5 class="card-title">Curso F</h5>
+                  <p class="card-text">Descripción del curso y otros detalles relevantes para el usuario.</p>
+                  <a href="#" class="btn btn-primary">Suscribirse</a>
                 </div>
               </div>
             </div>
@@ -134,10 +128,9 @@
               <div class="card">
                 <img class="card-img-top" src="/img/BackB-min.jpg" alt="Card image cap" height="143">
                 <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                    cards content.</p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                  <h5 class="card-title">Curso G</h5>
+                  <p class="card-text">Descripción del curso y otros detalles relevantes para el usuario.</p>
+                  <a href="#" class="btn btn-primary">Suscribirse</a>
                 </div>
               </div>
             </div>
@@ -145,10 +138,9 @@
               <div class="card">
                 <img class="card-img-top" src="/img/e-learning-system-min.jpeg" alt="Card image cap" height="143">
                 <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                    cards content.</p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                  <h5 class="card-title">Curso H</h5>
+                  <p class="card-text">Descripción del curso y otros detalles relevantes para el usuario.</p>
+                  <a href="#" class="btn btn-primary">Suscribirse</a>
                 </div>
               </div>
             </div>
@@ -186,10 +178,9 @@
             <div class="card">
               <img class="card-img-top" src="/img/BackA-min.jpg" alt="Card image cap" height="143">
               <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                  cards content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
+                <h5 class="card-title">Curso A</h5>
+                <p class="card-text">Descripción del curso y otros detalles relevantes para el usuario.</p>
+                  <a href="#" class="btn btn-primary">Suscribirse</a>
               </div>
             </div>
           </div>
@@ -207,10 +198,9 @@
             <div class="card">
               <img class="card-img-top" src="/img/BackB-min.jpg" alt="Card image cap" height="143">
               <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                  cards content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
+                <h5 class="card-title">Curso B</h5>
+                <p class="card-text">Descripción del curso y otros detalles relevantes para el usuario.</p>
+                  <a href="#" class="btn btn-primary">Suscribirse</a>
               </div>
             </div>
           </div>
@@ -228,10 +218,9 @@
             <div class="card">
               <img class="card-img-top" src="/img/e-learning-system-min.jpeg" alt="Card image cap" height="143">
               <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                  cards content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
+                <h5 class="card-title">Curso C</h5>
+                <p class="card-text">Descripción del curso y otros detalles relevantes para el usuario.</p>
+                  <a href="#" class="btn btn-primary">Suscribirse</a>
               </div>
             </div>
           </div>
