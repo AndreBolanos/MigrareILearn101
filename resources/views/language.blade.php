@@ -95,7 +95,7 @@
     .dot {
         height: 130px;
         width: 130px;
-        background-color: white;
+        background-color: #F2F4F4;
         border-radius: 50%;
         display: inline-block;
         margin: 10px;
@@ -103,18 +103,19 @@
         text-align: center;
         font-size: 1.2rem;
         border-style: solid;
-        border-color: #77216F;
+        border-color: #50858B;
         border-width: 3px;
         cursor: pointer;
         transition: 0.3s;
     }
 
     .dot:hover {
-        background-color: #77216F;
+        background-color: #50858B;
         color: whitesmoke;
         height: 150px;
         width: 150px;
         padding: 55px 0;
+        border-color: #50858B;
 
       }
     
