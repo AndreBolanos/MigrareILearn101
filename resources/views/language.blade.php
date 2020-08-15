@@ -34,22 +34,25 @@
             -ms-flex-align: center;
             align-items: center;
             color: #5D6D7E;
+            font-family: 'Roboto', sans-serif;
+            background-color: white;
+            
 
 
         }
 
         .dot {
-            height: 180px;
-            width: 180px;
-            background-color: white;
+            height: 150px;
+            width: 150px;
+            background-color: #F2F4F4;
             border-radius: 50%;
             display: inline-block;
             margin: 10px;
-            padding: 60px 0;
+            padding: 55px 0;
             text-align: center;
-            font-size: 1.8rem;
+            font-size: 1.3rem;
             border-style: solid;
-            border-color: #77216F;
+            border-color: #50858B;
             border-width: 3px;
             cursor: pointer;
             transition: 0.3s;
@@ -66,11 +69,13 @@
         }
 
         .dot:hover {
-            background-color: #77216F;
+            background-color: #50858B;
             color: whitesmoke;
-            height: 200px;
-            width: 200px;
-            padding: 70px 0;
+            height: 165px;
+            width: 165px;
+            padding: 60px 0;
+            font-size: 1.5rem;
+            border-color: #50858B;
 
           }
 
@@ -121,7 +126,7 @@
 
         <div style="text-align:center;margin: auto;">
             <h1>Migrare Elearning 101</h1>
-            <h3>Language | Español | Língua</h3>
+            <h4>Language | Lenguaje | Língua</h4>
             <br>
             <hr>
             <div class="dot" onclick="location.href='http://migrareilearn101.test/en/login';">English</div>

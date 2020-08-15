@@ -35,12 +35,14 @@ body {
 }
 
 .navbar {
-    background-color:rgba(94, 39, 80, 0.85);
+    // background-color:rgba(94, 39, 80, 0.85);
+     background-color: rgba(74, 124, 130,0.9);
+
 }
 
 .navbar-brand {
     font-weight: 900;
-    text-shadow: 2px 2px rgb(73, 8, 8);
+    text-shadow: 2px 2px rgb(0, 0, 0);
     font-size: 1.4rem;
 }
 
@@ -95,7 +97,7 @@ body {
 
 #carouselC .carousel-indicators li {
    
-    background-color: #843131;
+    background-color: #4a7c82;
     
 }
 
@@ -111,7 +113,7 @@ body {
 
 #carouselCM .carousel-indicators li {
    
-    background-color: #843131;
+    background-color: #4a7c82;
     
 }
 

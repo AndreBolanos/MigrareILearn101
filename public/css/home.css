@@ -10957,12 +10957,12 @@ body {
 }
 
 .navbar {
-  background-color: rgba(94, 39, 80, 0.85);
+  background-color: rgba(74, 124, 130, 0.9);
 }
 
 .navbar-brand {
   font-weight: 900;
-  text-shadow: 2px 2px #490808;
+  text-shadow: 2px 2px black;
   font-size: 1.4rem;
 }
 
@@ -11017,7 +11017,7 @@ body {
 }
 
 #carouselC .carousel-indicators li {
-  background-color: #843131;
+  background-color: #4a7c82;
 }
 
 #carouselCM .carousel-control-next-icon {
@@ -11029,7 +11029,7 @@ body {
 }
 
 #carouselCM .carousel-indicators li {
-  background-color: #843131;
+  background-color: #4a7c82;
 }
 
 #carouselCM .carousel-indicators {
