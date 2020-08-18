@@ -17,13 +17,23 @@
 
   <title>ELearning Migrare 101</title>
 
-  @if (count($errors) > 0)
+  @if ($errors->has('nameU') || $errors->has('emailU') || $errors->has('passwordU') || $errors->has('passwordU_confirmation'))
   <script>
       $( document ).ready(function() {
           $('#exampleModal').modal('show');
       });
-  </script>
+  </script> 
 @endif
+<script>
+  $( document ).ready(function() {
+    $('#exampleModal').on('hidden.bs.modal', function(){
+      location.reload();
+      
+  
+  });
+  });
+</script> 
+
 </head>
 
 <body>
@@ -151,7 +161,7 @@
         
                 @if ($errors->has('nameU'))
                 <span class="invalid-feedback">
-                    <strong>{{ $errors->first('nameU') }}</strong>
+                    <strong class="strongText">{{ $errors->first('nameU') }}</strong>
                 </span>    
                 @endif
         
@@ -162,7 +172,7 @@
         
                 @if ($errors->has('emailU'))
                 <span class="invalid-feedback">
-                    <strong>{{ $errors->first('emailU') }}</strong>
+                    <strong class="strongText">{{ $errors->first('emailU') }}</strong>
                 </span>    
                 @endif
         
@@ -173,7 +183,7 @@
         
                 @if ($errors->has('passwordU'))
                 <span class="invalid-feedback">
-                    <strong>{{ $errors->first('passwordU') }}</strong>
+                    <strong class="strongText">{{ $errors->first('passwordU') }}</strong>
                 </span>    
                 @endif
         
