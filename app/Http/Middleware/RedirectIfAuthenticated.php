@@ -20,7 +20,7 @@ class RedirectIfAuthenticated
     {
         if (Auth::guard($guard)->check()) {
             /** if user */
-            return redirect('en/home');
+            return redirect('/en/home');
         }
 
         return $next($request);

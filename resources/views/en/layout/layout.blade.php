@@ -4,16 +4,14 @@
 <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
-    <meta name="viewport"
-        content="width=device-width,maximum-scale=1.0,user-scalable=no,initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width,maximum-scale=1.0,user-scalable=no,initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="{{ mix('css/home.css') }}">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap" rel="stylesheet">
     <!-- Font Awesome JS -->
-    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js"
-        integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous">
     </script>
     <script src="https://kit.fontawesome.com/48be5f5ef0.js" crossorigin="anonymous"></script>
     <title>ELearning Migrare 101</title>
@@ -25,8 +23,7 @@
         <b><a class="navbar-brand" href="#">Migrare Elearning 101
                 <!--<img id="logoM" src="/img/Migrare-Elearning-101.png" alt="">-->
             </a></b>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
 
@@ -39,8 +36,7 @@
                     <a class="nav-link" href="#">Link</a>
                 </li>
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Dropdown
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -56,22 +52,26 @@
             </ul>
             <form id="buscarC" class="mr-auto my-2 my-lg-0">
                 <div class="form-row">
-                    <div class="col-md-6 col-11">
+                    <div class="col-md-6 col-11 my-auto">
                         <input type="text" class="form-control" placeholder="Buscar Cursos">
                     </div>
-                    <div class="col-md-6 col-1">
+                    <div class="col-md-3 col-1 my-auto">
                         <button class="btn btn-outline-light" type="submit">Buscar</button>
                     </div>
+                    <div class="col-md-1 col-12">
+                        <div class="containerUser"></div>
+                    </div>
                 </div>
+
             </form>
-            <form id="logout-form" class="d-flex justify-content-center" action="{{ route('logout') }}" method="POST"
-                 onclick="event.preventDefault();
+
+            <form id="logout-form" class="d-flex justify-content-center" action="{{ route('logout') }}" method="POST" onclick="event.preventDefault();
                         document.getElementById('logout-form').submit();">
                 @csrf
                 <div id="logoutF" class="d-flex justify-content-center" style="cursor: pointer">
-                <a style="margin-right: 10px;">Logout</a>
-                <i class="fas fa-power-off fa-2x" style="font-size: 25px;"></i>
-            </div>
+                    <a style="margin-right: 10px;">Logout</a>
+                    <i class="fas fa-power-off fa-2x" style="font-size: 25px;"></i>
+                </div>
             </form>
         </div>
     </nav>

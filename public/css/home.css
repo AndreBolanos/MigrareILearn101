@@ -10966,6 +10966,15 @@ body {
   font-size: 1.4rem;
 }
 
+.containerUser {
+  width: 50px;
+  height: 50px;
+  background-image: url(/img/UserIcon.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 50px;
+}
+
 #logoM {
   height: 26;
 }
@@ -11020,6 +11029,14 @@ body {
   background-color: #4a7c82;
 }
 
+#carouselC .carousel-caption {
+  bottom: -30px;
+}
+
+#carouselC .carousel-indicators {
+  bottom: -30px;
+}
+
 #carouselCM .carousel-control-next-icon {
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%23566573' width='8' height='8' viewBox='0 0 8 8'%3e%3cpath d='M2.75 0l-1.5 1.5L3.75 4l-2.5 2.5L2.75 8l4-4-4-4z'/%3e%3c/svg%3e");
 }
@@ -11033,7 +11050,7 @@ body {
 }
 
 #carouselCM .carousel-indicators {
-  bottom: -45px;
+  bottom: -65px;
 }
 
 #carouselCM {
@@ -11047,6 +11064,11 @@ body {
     width: 84%;
     margin-left: 0;
     margin-bottom: 15px !important;
+  }
+
+  .containerUser {
+    margin-top: 7%;
+    margin-left: 52%;
   }
 
   #carouselH .carousel-inner .carousel-item {

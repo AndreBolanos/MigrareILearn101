@@ -46,6 +46,16 @@ body {
     font-size: 1.4rem;
 }
 
+.containerUser {
+    width: 50px;
+    height: 50px;
+    background-image: url(/img/UserIcon.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50px;
+    
+  }
+
 #logoM {
     height: 26;
 }
@@ -101,6 +111,16 @@ body {
     
 }
 
+#carouselC .carousel-caption {
+
+    bottom: -30px;
+}
+
+#carouselC .carousel-indicators {
+
+    bottom: -30px;
+}
+
 
 
 #carouselCM .carousel-control-next-icon {
@@ -119,7 +139,7 @@ body {
 
 #carouselCM .carousel-indicators {
 
-    bottom: -45px;
+    bottom: -65px;
 }
 
 #carouselCM{
@@ -134,6 +154,11 @@ body {
         margin-left: 0;
         margin-bottom: 15px !important;
     }
+    .containerUser {
+        margin-top: 7%;
+        margin-left: 52%;
+        
+      }
     #carouselH .carousel-inner .carousel-item {
         width: 100%;
         min-height: 100vh;
