@@ -130,7 +130,7 @@
             <h4>Language | Lenguaje | Língua</h4>
             <br>
             <hr>
-            <div class="dot" onclick="location.href='http://migrareilearn101.test/en/login';">English</div>
+            <div class="dot" onclick="location.href='http://migrareilearn101.herokuapp.com/en/login';">English</div>
             <div class="dot">Español</div>
             <div class="dot">Portugues</div>
 
